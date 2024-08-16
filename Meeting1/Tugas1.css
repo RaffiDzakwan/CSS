@@ -1,0 +1,39 @@
+header {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.NasiGoreng {
+  text-align: center;
+  background-color: greenyellow;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.macandcheese {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.AyamGoreng {
+  text-align: center;
+  background-color: aqua;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
