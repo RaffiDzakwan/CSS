@@ -1,0 +1,26 @@
+#Judul{
+    h1{
+        color: blue;
+        font-size: 36px;
+        text-align: center;
+    }
+}
+
+.Contact-info{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.email-link{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.email-link:hover{
+    color: white;
+    text-decoration: underline;
+}
