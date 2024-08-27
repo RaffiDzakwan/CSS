@@ -1,36 +1,48 @@
-.Judul-text{
-    text-align: center;
-    background-color: #6b9080;
-    color: #f6fff8;
-    padding: 5px;
-    margin: 5px;
-    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.64);
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+.Judul-text {
+  text-align: center;
+  background-color: #6b9080;
+  color: #f6fff8;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.64);
 }
 
-.paragraph-decoration{
-    background-color: aliceblue;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    direction: ltr;
-    text-decoration: underline;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    text-overflow: ellipsis;
-    text-shadow: #FC0 1px 0 10px;
-    border-radius: 15px;
+.paragraph-decoration {
+  background-color: aliceblue;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  direction: ltr;
+  font-size: 24px;
+  font-style: oblique;
+  font-family: "Caveat", cursive;
+  font-weight: 900;
+  text-decoration: underline;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  text-overflow: ellipsis;
+  text-shadow: #fc0 1px 0 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.64);
 }
 
-.paragraph-decoration2{
-    background-color: aquamarine;
-    margin: 20px;
-    padding: 20px;
-    text-align: left;
-    direction: ltr;
-    text-decoration: line-through;
-    text-transform: lowercase;
-    letter-spacing: 2px;
-    text-overflow: ellipsis;
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-    border-radius: 15px;
+.paragraph-decoration2 {
+  background-color: aquamarine;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  direction: ltr;
+  font-size: medium;
+  font-style: italic;
+  font-family: cursive;
+  font-weight: bolder;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  text-overflow: ellipsis;
+  text-shadow: 1px 1px 2px rgb(166, 255, 0), 0 0 1em blue, 0 0 0.2em blue;
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.64);
 }
