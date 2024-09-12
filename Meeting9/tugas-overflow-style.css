@@ -1,0 +1,36 @@
+.tab{
+    display: flex;
+    list-style-type: none;
+    background-color: blue;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}    
+
+li{
+    border-right: solid  white 1px;
+    background-color: blue;
+    color: white;
+}
+
+.container-tab{
+    background-color: blue;
+    width: 200px;
+    
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+
+a{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.text{
+    background-color: bisque;
+    width: 200px;
+    margin-top: -15px;
+}
