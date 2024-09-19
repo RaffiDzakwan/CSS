@@ -1,0 +1,22 @@
+
+.tugas{
+    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    padding: 15px;
+ 
+}
+.tugas li a{
+    list-style-type: none;
+    margin-right: 5px;
+    font-size: 20px;
+    padding-right: 10px;
+    text-decoration: none; 
+}
+
+li a:hover{
+    background-color: aqua;
+}
+
