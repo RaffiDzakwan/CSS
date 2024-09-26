@@ -248,4 +248,143 @@
   .list-navigasi {
     display: none;
   }
+
+  .Illustration {
+    display: none;
+  }
+}
+
+#banner-3 {
+  background-color: #f5f7fa;
+}
+
+.container-banner-3 {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.judul-b3 {
+  font-family: "Inter", sans-serif;
+  align-self: center;
+
+  h1 {
+    font-size: 33px;
+  }
+
+  p {
+    margin-top: -12px;
+    font-size: 15px;
+  }
+
+  .upgrade {
+    color: #faa613;
+  }
+}
+
+.jumlah-santri {
+  display: flex;
+  margin-right: 60px;
+}
+
+.parent-1-2 {
+  margin-right: 50px;
+}
+
+.santri-1 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+
+  p {
+    margin-top: -12px;
+    color: #717171;
+  }
+
+  img {
+    margin-right: 15px;
+  }
+}
+
+.santri-2 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  p {
+    margin-top: -12px;
+    color: #717171;
+  }
+  img {
+    margin-right: 15px;
+  }
+}
+
+.santri-3 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  p {
+    margin-top: -12px;
+    color: #717171;
+  }
+  img {
+    margin-right: 15px;
+  }
+}
+
+.santri-4 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  p {
+    margin-top: -12px;
+    color: #717171;
+  }
+  img {
+    margin-right: 15px;
+  }
+}
+
+.container-banenr-4 {
+  margin-left: 40px;
+  /* margin-right: 40px; */
+  display: flex;
+}
+
+.img-banner-4 {
+  img {
+    width: 320px;
+  }
+}
+
+.img-banner-4 {
+  padding-right: 320px;
+}
+
+.description-b4 {
+  h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+  }
+  p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #717171;
+  }
+
+  button {
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    background-color: #faa613;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
 }
