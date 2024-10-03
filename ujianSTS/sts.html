@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="sts.css" /> -->
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+      body {
+        padding-top: 20px;
+        margin-left: 500px;
+      }
+
+      #card {
+        width: 320px;
+        height: fit-content;
+        /* border-radius: 20px; */
+      }
+
+      .container-card {
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+          rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        border-radius: 15px;
+      }
+
+      .img {
+        background-color: #ddd;
+        text-align: center;
+        height: 320px;
+        position: relative;
+
+        h1 {
+          color: #7c7a7a;
+          padding-top: 130px;
+        }
+      }
+
+      .deskripsi {
+        padding-top: 10px;
+        background-color: white;
+        overflow: scroll;
+        overflow-x: hidden;
+        font-family: "Roboto", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 10px;
+        height: 170px;
+        position: relative;
+
+        .p1 {
+          color: #696969;
+          font-size: 15px;
+        }
+      }
+
+      button {
+        background-color: #ff5633;
+        border: none;
+        border-radius: 7px;
+        padding: 10px 15px 10px 15px;
+        color: white;
+        font-family: "Roboto", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .span-1 {
+        position: absolute;
+        background-color: #ff0000;
+        padding: 6px 10px 6px 10px;
+        border-radius: 5px;
+        color: white;
+        font-family: "Roboto", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px;
+        right: 20px;
+        top: 18px;
+      }
+
+      .span-2 {
+        position: absolute;
+        right: 5px;
+        left: 170px;
+        font-size: 13px;
+        color: #696868;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="card">
+      <div class="container-card">
+        <div class="img">
+          <h1>150x150</h1>
+          <span class="span-1">Featured</span>
+        </div>
+
+        <div class="deskripsi">
+          <h1>Card Title</h1>
+          <p class="p1">
+            This is a card description. It has content that overflows to show
+            the usage of the 'overflow' property
+          </p>
+          <button>Learn More</button>
+          <span class="span-2"><p>Additional Info</p></span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
